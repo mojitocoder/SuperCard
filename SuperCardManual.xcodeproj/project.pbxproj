@@ -14,6 +14,7 @@
 		04CB66CB19E1E39A00479FDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB66CA19E1E39A00479FDE /* Images.xcassets */; };
 		04CB66CE19E1E39A00479FDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CB66CC19E1E39A00479FDE /* LaunchScreen.xib */; };
 		04CB66DA19E1E39A00479FDE /* SuperCardManualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB66D919E1E39A00479FDE /* SuperCardManualTests.m */; };
+		04CB66E519E1E50500479FDE /* PlayCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB66E419E1E50500479FDE /* PlayCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		04CB66D319E1E39A00479FDE /* SuperCardManualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardManualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB66D819E1E39A00479FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CB66D919E1E39A00479FDE /* SuperCardManualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardManualTests.m; sourceTree = "<group>"; };
+		04CB66E319E1E50500479FDE /* PlayCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayCardView.h; sourceTree = "<group>"; };
+		04CB66E419E1E50500479FDE /* PlayCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				04CB66C419E1E39A00479FDE /* ViewController.h */,
 				04CB66C519E1E39A00479FDE /* ViewController.m */,
 				04CB66C719E1E39A00479FDE /* Main.storyboard */,
+				04CB66E319E1E50500479FDE /* PlayCardView.h */,
+				04CB66E419E1E50500479FDE /* PlayCardView.m */,
 				04CB66CA19E1E39A00479FDE /* Images.xcassets */,
 				04CB66CC19E1E39A00479FDE /* LaunchScreen.xib */,
 				04CB66BD19E1E39A00479FDE /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CB66E519E1E50500479FDE /* PlayCardView.m in Sources */,
 				04CB66C619E1E39A00479FDE /* ViewController.m in Sources */,
 				04CB66C319E1E39A00479FDE /* AppDelegate.m in Sources */,
 				04CB66C019E1E39A00479FDE /* main.m in Sources */,
@@ -344,8 +350,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SuperCardManual/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -354,8 +362,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SuperCardManual/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

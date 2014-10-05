@@ -7,21 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "PlayCardView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet PlayCardView *playCardView;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+
+    self.playCardView.suit = @"♦"; //♠ ♣ ♥ ♦
+    self.playCardView.rank = 12;
+    self.playCardView.faceUp = YES;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+//- (void)didReceiveMemoryWarning {
+//    [super didReceiveMemoryWarning];
+//    // Dispose of any resources that can be recreated.
+//}∫
 
 @end
