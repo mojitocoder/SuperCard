@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0953D883-469E-44C1-84BE-0DB6F8153605</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuperCardManual</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8F90746C4CAC3263611ADB40AC68DCECD48F44FA</key>
+		<string>https://github.com/rosslynquynhnguyen/SuperCard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SuperCardManual.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8F90746C4CAC3263611ADB40AC68DCECD48F44FA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rosslynquynhnguyen/SuperCard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8F90746C4CAC3263611ADB40AC68DCECD48F44FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F90746C4CAC3263611ADB40AC68DCECD48F44FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SuperCardManual</string>
+		</dict>
+	</array>
+</dict>
+</plist>

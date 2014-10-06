@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SuperCardManual/PlayCardView.m"
-            timestampString = "434240780.698472"
+            timestampString = "434278818.75725"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>

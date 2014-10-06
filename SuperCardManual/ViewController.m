@@ -15,15 +15,20 @@
 
 @implementation ViewController
 
+- (IBAction)swipeCard:(UISwipeGestureRecognizer *)sender
+{
+    self.playCardView.faceUp = !self.playCardView.faceUp;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    // Do any additional setup after loading the view, typically from a nib.
-
-    self.playCardView.suit = @"♦"; //♠ ♣ ♥ ♦
-    self.playCardView.rank = 12;
-    self.playCardView.faceUp = YES;
+    self.playCardView.suit = @"♥"; //♠ ♣ ♥ ♦
+    self.playCardView.rank = 13;
+    
+    [self.playCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playCardView
+                                                                                      action:@selector(pinch:)]];
 }
 
 //- (void)didReceiveMemoryWarning {
